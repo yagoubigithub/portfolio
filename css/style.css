@@ -15,7 +15,7 @@ body {
   --midnight: #104f55;
 
   /* gradient color */
-  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  --sky: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 
   /* the font awesome*/
 
@@ -77,7 +77,7 @@ p{
 /*-------------------navbar---------------------*/
 
 .nav {
-    background: white;
+    background: rgb(223,223,223);
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -150,6 +150,45 @@ p{
   }
   /*-----------X-------navbar----------X----------*/
 
+
+/*----------------Main content --------------*/
+
+
+
+/*----------------Site Title --------------*/
+
+main .site-title{
+  background: url('../images/Background-image-3.png');
+  background-size: cover;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+main .site-title .site-background{
+  padding: 10rem;
+  text-align: center;
+  color: var(--text-gray);
+}
+main .site-title h1,h3{
+  margin: 0.3rem;
+}
+main .site-title .btn{
+  margin : 1.8rem;
+  color: var(--white);
+  font-family: var(--Lexend)  ;
+  font-size: 1.1rem;
+  background: var(--sky);
+}
+main .site-title .btn:hover{
+background: transparent;
+border : 1px solid var(--white);
+color: var(--white);
+}
+
+/*-------X---------Site Title ---- X----------*/
+
+
+/*-------X---------Main content ----X----------*/
 
   /*  Viewport less then or equal to 750px      */
 
