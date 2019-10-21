@@ -77,7 +77,7 @@ p{
 /*-------------------navbar---------------------*/
 
 .nav {
-    background: rgb(223,223,223);
+    background: #111111;
     padding: 0 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -103,7 +103,7 @@ p{
   }
   .nav .toggle-collapse .toggle-icons i{
       font-size: 1.4rem;
-      color: var(--text-gray);
+      color: var(--white);
   }
   
   .collapse{
@@ -122,6 +122,9 @@ p{
   }
   .nav .nav-items .nav-link:hover {
     background-color: var(--midnight);
+  }
+  .nav .nav-menu .nav-brand a,.toggle-collapse div i, .social a,.nav-items a{
+    color: var(--white) !important;
   }
   .nav .nav-items .nav-link:hover a {
     color: var(--white);
